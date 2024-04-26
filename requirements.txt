@@ -2,4 +2,6 @@ pandas
 numpy
 scikit-learn
 torch
+tensorboard
 ipykernel #For notebooks
+matplotlib
