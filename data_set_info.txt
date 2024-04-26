@@ -1,0 +1,48 @@
+ID: This column likely represents a unique identifier or catalog number assigned to each brown dwarf in the dataset. 
+It could refer to a specific naming convention or catalog reference used by astronomers.
+
+sp_type: The spectral type of the brown dwarf, denoting its classification based on the characteristics of its spectrum. 
+For example, "A0" indicates a specific spectral type within the stellar classification system, 
+where A-type stars are characterized by certain absorption lines in their spectra.
+
+RAdeg: Right Ascension (RA) in degrees. RA is one component of the celestial coordinate system used to locate objects in the sky along the east-west direction.
+
+DEdeg: Declination (Dec) in degrees. Declination is another component of the celestial coordinate system, used to locate objects in the sky along the north-south direction.
+
+PS1gmag: Apparent magnitude of the brown dwarf in the Pan-STARRS g-band. Pan-STARRS is a wide-field survey telescope system that observes the sky in multiple wavelength bands,
+and g-band refers to the green portion of the optical spectrum.
+
+e_PS1gmag: The uncertainty or error associated with the Pan-STARRS g-band magnitude measurement.
+
+PS1rmag: Apparent magnitude of the brown dwarf in the Pan-STARRS r-band, corresponding to the red portion of the optical spectrum.
+
+e_PS1rmag: Uncertainty or error associated with the Pan-STARRS r-band magnitude measurement.
+
+PS1imag: Apparent magnitude of the brown dwarf in the Pan-STARRS i-band, which typically covers the near-infrared part of the spectrum.
+
+e_PS1imag: Uncertainty or error associated with the Pan-STARRS i-band magnitude measurement.
+
+PS1zmag: Apparent magnitude of the brown dwarf in the Pan-STARRS z-band, sensitive to longer wavelengths in the near-infrared.
+
+e_PS1zmag: Uncertainty or error associated with the Pan-STARRS z-band magnitude measurement.
+
+PS1ymag: Apparent magnitude of the brown dwarf in the Pan-STARRS y-band, another near-infrared band.
+
+e_PS1ymag: Uncertainty or error associated with the Pan-STARRS y-band magnitude measurement.
+
+W1mag, W2mag, W3mag, W4mag: 
+Apparent magnitudes of the brown dwarf measured by the Wide-field Infrared Survey Explorer (WISE) satellite in its four infrared bands (W1, W2, W3, W4). 
+These measurements probe the thermal emission from the brown dwarf at longer wavelengths than optical.
+
+e_W1mag, e_W2mag, e_W3mag, e_W4mag: 
+Uncertainties or errors associated with the WISE infrared magnitude measurements.
+
+Jmag, Hmag, Kmag: 
+Apparent magnitudes of the brown dwarf in the near-infrared bands measured by the Two Micron All-Sky Survey (2MASS) in its J (1.25 microns),
+ H (1.65 microns), and K (2.17 microns) bands. These bands are sensitive to thermal emission from the brown dwarf.
+
+e_Jmag, e_Hmag, e_Kmag: Uncertainties or errors associated with the 2MASS near-infrared magnitude measurements.
+
+label: This column likely represents a classification or label assigned to each brown dwarf, 
+often used in machine learning tasks or scientific analyses to categorize the objects based on their properties or characteristics. 
+The value 0 in this context could denote a specific class or category of brown dwarfs.
