@@ -8,6 +8,7 @@ Notebook generates 4 csv files in the original_dataset/ folder:
 - idTR.npy
 - labelTE.npy
 - labelTR.npy
+
 Due to a bug in the data, fold 2 in the index and labeling data had one extra data point for the training set and one less for the test data. This was solved by removing the last element in the training data, and adding it to the test data, for both the labeling and index.
 
 ## act_func_test
@@ -32,25 +33,22 @@ Se om ulike init. påvirker resultatet mye (ikke det viktigste)
 
 
 ## Activation Function
-Sammenligne ulike act. funct. for å plukke ut en god en. Dokumenter forskjellene og legg evt ved plot
+Dokumenter forskjellene og legg evt ved plot
 Pass på å kjør ulike trening/test set for å forbedre resultatet
 Tenk på en god måte å sammenligne disse resultatene på (snitt, varians, std. avvik...)
 RELU
 Logistisk
 Tanh
 Sigmoid, kan gå siden vi har få layers, men husk exploding gradient og vanishing gradient
+Legge ved plots og skrive om på metode og resultater
 
 ## Feature Selection
 Begrunne valg av features, plotte valgte (og ikke valgte features) for å se deres viktighet.
 Prøvd å bruke PCA, men 
 Skriv ut de featurene den velger, for å se at features som gir mening passer. 
 
-## Fold selection
-Velge antall folds som brukes i trening ved å sammenligne training og test error i plot.
-Overfittes nok på alle 5 foldene, men 4 ser bra ut
 
-## Rydde opp
-Fjærne unødvendige filer
-
+## Dokumentering
+Linke det vi bruker mot kilder, og få det ned i dokument. sikkert eksperimenelt og metode. Evt legg ved formler og algoritmer
 
 
