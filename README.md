@@ -3,6 +3,36 @@ Denne README filen burde dekke det som trengs av kunnskap for å kjøre koden. S
 
 ## main
 Main running model
+### Data Preprocessing
+- Loading file as Pandas Dataframe
+- Impute 0s for average value in column
+- Splitting data into 5 folds after given indexes
+- Using PCA to improve model runtime
+
+### NN
+- Designing the architecture of the Neural Network to have a input layer of 13 neurons, two hidden layers with 10 neurons and 5 layers in that respective order, and a output neuron for classification
+- Fully connected neural network
+- Tanh as activation function on weights between layers
+- Sigmoid as activation function on output layer to convert it to a binary value
+
+### Training Loop
+- Seeded for reproducibility
+- Training the model seperatily on each fold, then saving the model in the `models` folder for later validation.
+- Uses Binary Cross-Entropy Loss to adjust model weights
+- Uses Adam to try to optimize our loss and search for the global minima
+- Plotting loss vs. epoch to visualize how the model changes over time
+- Predicting MCC scores on training data
+
+### Testing the model on the test set
+- Loading the previously trained models on the different folds, and runs a forward propagation on the test data, while calculating the:
+  - f1 score
+  - MCC (Matthews Correlation Coefficient)
+  - Accuracy
+  - Precision
+  - Recall
+  - Confusion Matrix
+- Plotting all the scores on a bar plot for better visualization 
+- Plotting Confusion Matrixes also for better visualization of number of TP, FP, TN and FN values.
 
 ## viz_data
 Notebook used for extracting test and training data from the original_dataset/ReadBrownDwarf.mat file.
@@ -49,7 +79,7 @@ Legge ved plots og skrive om på metode og resultater
 Begrunne valg av features, plotte valgte (og ikke valgte features) for å se deres viktighet.
 Prøvd å bruke PCA, men 
 Skriv ut de featurene den velger, for å se at features som gir mening passer. 
-
+Dokumentere at PCA gir like bra/muligens bedre resultat? Like bra er vel bra uansett siden den skal minimere kjøretid
 
 ## Dokumentering
 Linke det vi bruker mot kilder, og få det ned i dokument. sikkert eksperimenelt og metode. Evt legg ved formler og algoritmer
