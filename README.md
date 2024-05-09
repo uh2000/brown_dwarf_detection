@@ -1,6 +1,9 @@
 Denne README filen burde dekke det som trengs av kunnskap for å kjøre koden. Skal sendes med koden til foreleser
 # italy_dl_padova
 
+## main
+Main running model
+
 ## viz_data
 Notebook used for extracting test and training data from the original_dataset/ReadBrownDwarf.mat file.
 Notebook generates 4 csv files in the original_dataset/ folder: 
@@ -50,5 +53,3 @@ Skriv ut de featurene den velger, for å se at features som gir mening passer.
 
 ## Dokumentering
 Linke det vi bruker mot kilder, og få det ned i dokument. sikkert eksperimenelt og metode. Evt legg ved formler og algoritmer
-
-
