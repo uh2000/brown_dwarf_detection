@@ -1,18 +1,20 @@
 Denne README filen burde dekke det som trengs av kunnskap for å kjøre koden. Skal sendes med koden til foreleser
-# italy_dl_padova
+# README
 
-## main
+## main.ipynb
 Main running model
+- Global variables: Some hyperparameters for the model and some other variables
 ### Data Preprocessing
 - Loading file as Pandas Dataframe
-- Impute 0s for average value in column
+- Impute 0s with linear regression
 - Splitting data into 5 folds after given indexes
-- Using PCA to improve model runtime
+- Scaling each fold from given training data
+  
 
 ### NN
-- Designing the architecture of the Neural Network to have a input layer of 13 neurons, two hidden layers with 10 neurons and 5 layers in that respective order, and a output neuron for classification
-- Fully connected neural network
-- Tanh as activation function on weights between layers
+- Designing the architecture of the Neural Network to have a input layer of 26 neurons, two hidden layers with 14 neurons and 10 neurons in the respective order, and a output neuron for classification
+- Creating fully connected deep neural network
+- ReLU as activation function on weights between layers
 - Sigmoid as activation function on output layer to convert it to a binary value
 
 ### Training Loop
@@ -32,7 +34,9 @@ Main running model
   - Recall
   - Confusion Matrix
 - Plotting all the scores on a bar plot for better visualization 
+### Confusion matrix comparison
 - Plotting Confusion Matrixes also for better visualization of number of TP, FP, TN and FN values.
+- Plotting a mean confusion matrix score to have better overall confidence of model
 
 ## viz_data
 Notebook used for extracting test and training data from the original_dataset/ReadBrownDwarf.mat file.
@@ -46,6 +50,7 @@ Due to a bug in the data, fold 2 in the index and labeling data had one extra da
 
 ## act_func_test
 Notebook used for comparing different activation functions used in the deep network, to evaluate which yields the best results.
+Network architecture is chosen as an arbitrary, but qualified guess to be 26x10x5x1
 ### Components
 #### Training loss
 Used to compare training loss vs #epochs
