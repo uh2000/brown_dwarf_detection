@@ -7,3 +7,5 @@ matplotlib
 imblearn
 seaborn
 h5py #For converting matlab file
+optuna #For optimizing hyperparam.
+torchvision
