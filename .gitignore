@@ -1,6 +1,6 @@
-*.mat
 *.pth
 *.csv
+*.npy
 logs/
 *.cfg
 share/
@@ -12,6 +12,5 @@ dist/
 *.egg-info/
 *.egg
 models/
-original_dataset/
 .DS_Store
 .venv
