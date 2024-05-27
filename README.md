@@ -72,3 +72,5 @@ Notebook for finding best hyperparameters for our model, based on optuna.
 Runs the function define_model(trial), over several trials, to try and find the best model possible.
 
 
+## [just_colors](just_colors.ipynb)
+Notebook for testing our model based on only color features, instead of all 26 features.
