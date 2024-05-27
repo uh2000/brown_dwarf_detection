@@ -6,6 +6,8 @@ pip install -r requirements.txt
 ```
 in the terminal.
 
+Run data_preprocessing before main to get correct dataset
+
 ## [main](main.ipynb)
 Main running model
 - Global variables: Some hyperparameters for the model and some other variables
