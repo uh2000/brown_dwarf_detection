@@ -6,7 +6,7 @@ pip install -r requirements.txt
 ```
 in the terminal.
 
-Run data_preprocessing before main to get correct dataset
+**Run [data_preprocessing](data_preprocessing.ipynb) before main to get correct dataset**
 
 ## [main](main.ipynb)
 Main running model
@@ -46,8 +46,8 @@ Main running model
 - Plotting a mean confusion matrix score to have better overall confidence of model
 
 ## [data_preprocessing](data_preprocessing.ipynb)
-Notebook used for extracting test and training data from the original_dataset/ReadBrownDwarf.mat file.
-Notebook generates 4 csv files in the original_dataset/ folder: 
+Notebook used for extracting test and training data from the original_data/ReadBrownDwarf.mat file.
+Notebook generates 4 csv files in the original_data/ folder: 
 - idTE.npy
 - idTR.npy
 - labelTE.npy
