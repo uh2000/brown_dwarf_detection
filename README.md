@@ -1,9 +1,9 @@
 # Brown Dwarf detection model
 
 Download requirements by writing:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 in the terminal.
 
 ## [main](main.ipynb)
