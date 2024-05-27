@@ -13,3 +13,4 @@ dist/
 *.egg
 models/
 original_dataset/
+.DS_Store
