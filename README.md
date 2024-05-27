@@ -74,3 +74,6 @@ Runs the function define_model(trial), over several trials, to try and find the 
 
 ## [just_colors](just_colors.ipynb)
 Notebook for testing our model based on only color features, instead of all 26 features.
+
+## [Article about the code](Brown_Dwarf_detection_using_Neural_Networks.pdf)
+Article created about the code
